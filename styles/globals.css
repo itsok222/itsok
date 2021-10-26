@@ -1,17 +1,144 @@
-/* ./styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-    font-family: 'Avenir Next','Helvetica Neue',Arial,Helvetica,sans-serif;
-  }
+  font-family: 'Avenir Next','Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+image {
+  cursor: pointer;
+}
+
+ol {
+  margin-left: 2rem;
+    list-style: revert;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 2.5rem;
+  font-size: 22px;
+  line-height: 1.1 !important;
+  font-weight: bold;
+
+}
+
+h2, h3, h4, h5, h6 {
+  font-size: 22px;
+  
+}
+p > a{
+  color: #7330db;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2rem;
+  
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+.h1-height {
+  line-height: 28px;
+ 
+}
 
 
-  .m-0-auto {
-    margin: 0 auto !important;
+p {
+  margin-top: 1rem;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* a {
+  color: blueviolet;
+  font-weight: bold;
+  
+} */
+.ithaka-title-font {
+  font-family: 'Carrois Gothic SC', sans-serif;
+  
+}
+
+.border-1px {
+
+  border: 1px solid #c3c3c3;
+
+}
+
+@responsive {
+
+  .w-30rem {
+    width: 54rem;
+  }
+  .main-fixed-size {
+    width: 1080px;
+  }
+  
+  .container-fixed-size{
+    width: 1080px;
+    margin: 0 auto;
+  
+  }
+  
+  .card-height-28 {
+    height: 29rem;
+  }  
+  .width-42{
+    width: 42rem;
+  }
+  .width-big {
+    width: 40rem;;
+  }
+  
+  .width-md {
+   width: 30rem;
   }
 
-  .box-shadow {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
+.width-38 {
+  width: 38rem;
+}
+
+.width-45 {
+  width: 46rem;
+}
+
+.width-42 {
+  width: 45rem;
+}
+
+ .post-width {
+   width: 720px;
+ }
+
+}
+
+
+
+
+
+
+h3 {
+}
+
+.m-0-auto {
+  margin: 0 auto !important;
+}

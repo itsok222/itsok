@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
 
 export default function Blog() {
   return (
@@ -9,7 +7,7 @@ export default function Blog() {
         <title>Its OK</title>
         <meta
           property="og:title"
-          content="Gamify.Design | Build Epic Products with Game Design"
+          content="Its OK | Talk with US to Confront your challenges"
           key="title"
         />
       </Head>

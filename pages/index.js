@@ -206,7 +206,7 @@ export default function Blog() {
                       style={{ textAlign: "left" }}
                     >
                       <button
-                        className="relative block px-6 py-3 mt-4 text-lg font-semibold leading-snug transition duration-150 ease-in-out bg-yellow-200 border border-transparent rounded-md shadow-md cursor-pointer w-44 margin-0-auto "
+                        className="relative block px-6 py-3 mt-4 text-lg font-semibold leading-snug transition duration-150 ease-in-out border border-transparent rounded-md shadow-md cursor-pointer brand-bg-green w-44 margin-0-auto "
                         form="sib-form"
                         type="submit"
                         value="Talk to US ❤️"

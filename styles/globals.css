@@ -84,7 +84,26 @@ p {
 
 }
 
+.sib-form .input {
+
+}
+
+.sib-form .input {
+  outline: 2px solid transparent !important;
+  font-size: 54px !important
+}
+
+
+.sib-form .entry__field {
+  color: red !important;
+}
+
+
 @responsive {
+
+  .height-signup-box {
+    height: 400px;
+  }
 
   .w-30rem {
     width: 54rem;

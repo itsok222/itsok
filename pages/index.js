@@ -125,7 +125,7 @@ export default function Blog() {
                           <div className="w">
                             <input
                               className="block w-full px-4 py-3 text-lg placeholder-gray-500 bg-white border border-gray-300 rounded-md shadow-none outline-none appearance-none margin-0-auto sm:width-38 focus:outline-none focus:shadow-outline-blue focus:border-blue-300"
-                              type="text"
+                              type="email"
                               id="EMAIL"
                               name="EMAIL"
                               autoComplete="off"

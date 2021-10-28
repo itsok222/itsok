@@ -19,12 +19,12 @@ export default function Blog() {
         <div className="container m-auto overflow-hidden sm:main-fixed-size ">
           <div className="flex justify-between p-4 mx-4 mt-4 sm:mx-0 rounded-xl">
             <div>
-              <div className="hidden -mt-16 text-xl font-bold sm:block">
+              <div className="hidden -mt-10 text-xl font-bold sm:block">
                 <Image
                   src="/assets/logo6.png"
                   alt="Picture of the author"
-                  width={112}
-                  height={112}
+                  width={82}
+                  height={82}
                 />
               </div>
               <div className="-mt-6 text-xl font-bold sm:hidden">
@@ -67,9 +67,11 @@ export default function Blog() {
                 </span>
               </div>
               <div className="-mt-8 text-xl text-center sm:mt-4 sm:text-2xl">
-                We provide easy, safe, affordable and accessible online therapy
-                with licensed therapists at fingertips. Are you facing a tough
-                time and unsure how to overcome it?
+                We provide easy, safe, and affordable online therapy with
+                licensed therapists at fingertips.
+              </div>
+              <div className="mt-0 text-xl text-center sm:text-2xl">
+                Are you facing a tough time and unsure how to overcome it?
               </div>
               <div className="mt-4 text-xl text-center sm:text-2xl">
                 Its OK! Take the first step today
@@ -79,9 +81,43 @@ export default function Blog() {
                 <form
                   id="sib-form"
                   method="POST"
-                  action="https://48bd664a.sibforms.com/serve/MUIEALiQbfsL8X_JeJO8kLw1w7fcxua53SNZ4OmyqbaTAlFI5VqN715aslNMqQeZ0INXfAhSiivXsSQU2hC5yKGS4jjRX2isS3ZxwRgfyrr5P-yGGBE_GSH4WwSHRqkbJpgarEDGPjWK3ah-GzCtn8a67AM-8QoNMQ5wVCpspve-Iwfz47YtILM-QLxxmNikpFfGc-Z9YJgpdWiI"
+                  action="https://48bd664a.sibforms.com/serve/MUIEAO3O4sDxAybCtT4xWHM9Z2tjyvjd7ye92jGkdtsoRLrW_rtEirlebktw2GtRGb9gYa63S_LbgRnNp062wKQHyAf4rWr0pU-1NqUdn7nYxFZocAoCUKLhvdY-BDAsmp-YY2utvEo6Q3Rarz6vC-0xcoc3a0cfAay3XrC1DI8oyn5um1SK9GH2Y65vzatz0moteMFc56ZjNWFs"
                   data-type="subscription"
                 >
+                  <div style={{ padding: "8px 0" }}>
+                    <div className="sib-input sib-form-block">
+                      <div className="form__entry entry_block">
+                        <div className="form__label-row ">
+                          <div className="entry__field">
+                            <input
+                              className="block w-full px-4 py-3 text-lg placeholder-gray-500 bg-white border border-gray-300 rounded-md shadow-none outline-none appearance-none margin-0-auto sm:width-38 focus:outline-none focus:shadow-outline-blue focus:border-blue-300"
+                              maxLength={200}
+                              type="text"
+                              id="FULLNAME"
+                              name="FULLNAME"
+                              autoComplete="off"
+                              placeholder="Name"
+                              data-required="true"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <label
+                          className="entry__error entry__error--primary"
+                          style={{
+                            fontSize: "16px",
+                            textAlign: "left",
+                            fontFamily: '"Helvetica", sans-serif',
+                            color: "#661d1d",
+                            backgroundColor: "#ffeded",
+                            borderRadius: "3px",
+                            borderColor: "#ff4949",
+                          }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+
                   <div style={{ padding: "8px 0" }}>
                     <div className="sib-input sib-form-block">
                       <div className="form__entry entry_block">
@@ -152,45 +188,23 @@ export default function Blog() {
                   </div>
 
                   <div style={{ padding: "8px 0" }}>
-                    <div className="sib-sms-field sib-form-block">
+                    <div className="sib-input sib-form-block">
                       <div className="form__entry entry_block">
-                        <div className="form__label-row">
-                          <div className="sib-sms-input-wrapper">
-                            <div
-                              className="sib-sms-input"
-                              data-placeholder="XX XXX XXX XX"
-                              data-value
-                            >
-                              <div
-                                className="entry__field"
-                                style={{ width: "100%" }}
-                              >
-                                <input
-                                  type="tel"
-                                  className="block w-full px-4 py-3 text-lg placeholder-gray-500 bg-white border border-gray-300 rounded-md shadow-none outline-none appearance-none margin-0-auto sm:width-38 focus:outline-none focus:shadow-outline-blue focus:border-blue-300"
-                                  id="SMS"
-                                  name="SMS"
-                                  autoComplete="off"
-                                  placeholder="Phone number (Optional)"
-                                />
-                              </div>
-                            </div>
+                        <div className="form__label-row ">
+                          <div className="entry__field">
+                            <input
+                              className="block w-full px-4 py-3 text-lg placeholder-gray-500 bg-white border border-gray-300 rounded-md shadow-none outline-none appearance-none margin-0-auto sm:width-38 focus:outline-none focus:shadow-outline-blue focus:border-blue-300"
+                              maxLength={200}
+                              type="text"
+                              id="LASTNAME"
+                              name="LASTNAME"
+                              autoComplete="off"
+                              placeholder="Phone Number (Optional)"
+                            />
                           </div>
                         </div>
                         <label
                           className="entry__error entry__error--primary"
-                          style={{
-                            fontSize: "16px",
-                            textAlign: "left",
-                            fontFamily: '"Helvetica", sans-serif',
-                            color: "#661d1d",
-                            backgroundColor: "#ffeded",
-                            borderRadius: "3px",
-                            borderColor: "#ff4949",
-                          }}
-                        ></label>
-                        <label
-                          className="entry__error entry__error--secondary"
                           style={{
                             fontSize: "16px",
                             textAlign: "left",
@@ -214,9 +228,9 @@ export default function Blog() {
                         className="relative block px-6 py-3 mt-2 text-lg font-semibold leading-snug transition duration-150 ease-in-out border border-transparent rounded-md shadow-md cursor-pointer brand-bg-green w-44 margin-0-auto "
                         form="sib-form"
                         type="submit"
-                        value="Talk to US ❤️"
+                        value="Get Started"
                       >
-                        Talk to US ❤️
+                        Get Started
                       </button>
                     </div>
                   </div>

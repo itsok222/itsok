@@ -247,8 +247,10 @@ export default function Blog() {
                     ></div>
                   </div>
                   <div className="text-center text-gray-500 ">
-                    You can also reach out to us at Care@itsOK.co.in or Whatsapp
-                    at +91 93196 03693
+                    You can also reach out to us at Care@itsOK.co.in or
+                  </div>
+                  <div className="text-center text-gray-500 ">
+                    Whatsapp at +91 93196 03693
                   </div>
 
                   <div className="flex justify-center mt-4">

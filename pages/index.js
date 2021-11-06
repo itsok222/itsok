@@ -44,7 +44,7 @@ export default function Blog() {
               >
                 <div title="Join the team">
                   <a
-                    href="https://www.notion.so/Its-OK-78078e933d0d4a3caaeb369c8dae6e66"
+                    href="https://angel.co/company/its-ok-app/jobs/1718506-full-stack-developer"
                     target="_blank"
                   >
                     Join the team
